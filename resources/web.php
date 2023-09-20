@@ -1,5 +1,5 @@
-<?php  
+<?php
 
-use utils\Router;
+use utils\Router; 
 
-Router::get('/', fn() => view('home'));
+Router::get('/', fn() => view('welcome'));

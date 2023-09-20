@@ -2,14 +2,8 @@
 
 namespace AuthController;  
 use Model\Users; 
+use utils\Validate;
 
-class AuthController {   
-    private $user;
-
-    public function __construct() {
-        $this->user = new Users(); 
-    }
-
-    public function testQuery() {  
-    }
+class AuthController {    
+    
 }

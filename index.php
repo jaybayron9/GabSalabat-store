@@ -1,9 +1,8 @@
 <?php
+date_default_timezone_set("Asia/Manila");
+session_start();
 
 use utils\Router;
-
-date_default_timezone_set("Asia/Manila");
-session_start(); 
 
 require_once __DIR__ . '/vendor/autoload.php';
 Dotenv\Dotenv::createImmutable(__DIR__)->load();
