@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 
+        var(--scroll-padding, 10rem);
+}
+
+/* #home {
+    background-image: url('../images/home-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    
+} */
